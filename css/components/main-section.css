@@ -1,0 +1,128 @@
+    /*MOBILE*/
+    
+    .partner-list {
+        text-align: center;
+    }
+    
+    .meet-a-partner {
+        font-size: 22px;
+        color: #333333;
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+        text-align: center;
+        margin: 0 35px 15px 35px;
+    }
+    
+    .partner-list li {
+        max-width: 217px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .partner-name {
+        color: #333333;
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+        margin-bottom: 10px;
+    }
+    
+    .parner-hobbies {
+        color: #666666;
+        font-size: 14px;
+        font-family: var(--secondary-font-family);
+        line-height: 18px;
+    }
+    
+    .partner-list li:last-child {
+        margin-bottom: 40px;
+    }
+    
+    .partner-photo img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+    
+    .see-other-partner-btn {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .see-other-partner-btn a {
+        background-color: transparent;
+        padding: 12px 40px;
+        border: 3px solid #FF4E50;
+        border-radius: 41px;
+        color: #FF4E50;
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+    }
+    
+    .see-other-partner-btn {
+        padding-bottom: 40px;
+    }
+    
+    .partner-photo {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .bradley-shape::after,
+    .lucas-shape::after,
+    .heather-shape::after,
+    .hunter-shape::after {
+        content: '';
+        width: 34px;
+        height: 34px;
+        border: 3px solid var(--header-text-color);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .bradley-shape::after {
+        background-color: #FF4E50;
+        background-image: url('../../images/Shape128.png');
+    }
+    
+    .lucas-shape::after {
+        background-color: #FFA507;
+        background-image: url('../../images/Shape155.png');
+    }
+    
+    .heather-shape::after {
+        background-color: #1CD7AD;
+        background-image: url('../../images/Shape153.png');
+    }
+    
+    .hunter-shape::after {
+        background-color: #4E73DB;
+        background-image: url('../../images/Shape170.png');
+    }
+    
+    @media screen and (min-width: 768px) {
+        .wrapper {
+            max-width: 550px;
+            margin: 0 auto;
+        }
+        .partner-list li {
+            margin: 0 auto 60px auto;
+        }
+        .meet-a-partner {
+            margin-bottom: 40px;
+            font-size: 22px;
+        }
+    }
+    
+    @media screen and (min-width: 960px) {
+        .wrapper {
+            max-width: 940px;
+            margin: 0 auto;
+        }
+    }

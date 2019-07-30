@@ -1,0 +1,7 @@
+@import url('./fonts.css');
+:root {
+    --main-font-family: 'Montserrat', sans-serif;
+    --main-font-weight: 700;
+    --header-text-color: #FFFFFF;
+    --secondary-font-family: 'Roboto', sans-serif;
+}
