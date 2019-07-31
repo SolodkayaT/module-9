@@ -1,14 +1,5 @@
 /*MOBILE*/
 
-.header-section,
-.banner {
-    min-width: 320px;
-}
-
-.logo-tablet-desctop {
-    display: none;
-}
-
 .header-section {
     position: absolute;
     z-index: 2;
@@ -42,12 +33,10 @@
 .banner-title {
     font-size: 30px;
     margin-bottom: 25px;
-    text-transform: uppercase;
 }
 
 .banner-title,
 .banner-description {
-    text-align: center;
     position: relative;
     z-index: 2;
 }
@@ -59,12 +48,7 @@
     margin: 0 35px 40px 35px;
 }
 
-.banner-title span {
-    display: block;
-}
-
 .find-partner-btn {
-    text-align: center;
     padding-bottom: 135px;
     position: relative;
     z-index: 2;
@@ -74,29 +58,21 @@
     background-color: #ff4e50;
     padding: 12px 40px;
     border: 1px solid transparent;
-    border-radius: 41px;
-    text-decoration: none;
     color: var( --header-text-color);
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
-}
-
-.logo-tablet-desctop {
-    display: none;
 }
 
 .login button,
 .signup button,
 .logo-mobile a,
 .logo-tablet-desctop a {
-    text-decoration: none;
     color: var( --header-text-color);
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
 }
 
 .logo-mobile {
-    text-align: center;
     padding-top: 160px;
     margin-bottom: 40px;
     position: relative;
@@ -117,14 +93,6 @@
 
 .navigation-menu {
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.authorization {
-    display: flex;
-    align-items: center;
 }
 
 .authorization li {
@@ -136,18 +104,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .logo-mobile {
-        display: none;
-    }
     .logo-tablet-desctop {
-        display: inline-block;
         font-size: 20px;
-    }
-    .navigation-menu,
-    .authorization {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     .banner-title {
         padding-top: 235px;

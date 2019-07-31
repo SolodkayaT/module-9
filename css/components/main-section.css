@@ -1,15 +1,10 @@
     /*MOBILE*/
     
-    .partner-list {
-        text-align: center;
-    }
-    
     .meet-a-partner {
         font-size: 22px;
         color: #333333;
         font-family: var(--main-font-family);
         font-weight: var(--main-font-weight);
-        text-align: center;
         margin: 0 35px 15px 35px;
     }
     
@@ -37,16 +32,11 @@
     }
     
     .partner-photo img {
-        display: block;
-        max-width: 100%;
-        height: auto;
         margin: 0 auto;
         border: 1px solid transparent;
-        border-radius: 50%;
     }
     
     .see-other-partner-btn {
-        text-align: center;
         margin-bottom: 40px;
     }
     
@@ -54,11 +44,9 @@
         background-color: transparent;
         padding: 12px 40px;
         border: 3px solid #FF4E50;
-        border-radius: 41px;
         color: #FF4E50;
         font-family: var(--main-font-family);
         font-weight: var(--main-font-weight);
-        text-decoration: none;
     }
     
     .see-other-partner-btn {
@@ -105,10 +93,6 @@
     .hunter-shape::after {
         background-color: #4E73DB;
         background-image: url('../../images/Shape170.png');
-    }
-    
-    .partner-card>div {
-        max-width: 100%;
     }
     
     @media screen and (min-width: 768px) {
