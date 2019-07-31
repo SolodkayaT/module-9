@@ -107,6 +107,10 @@
         background-image: url('../../images/Shape170.png');
     }
     
+    .partner-card>div {
+        max-width: 100%;
+    }
+    
     @media screen and (min-width: 768px) {
         .wrapper {
             max-width: 550px;
