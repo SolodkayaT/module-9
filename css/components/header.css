@@ -30,15 +30,14 @@
     top: 0;
 }
 
+.banner-text {
+    position: relative;
+    z-index: 1;
+}
+
 .banner-title {
     font-size: 30px;
     margin-bottom: 25px;
-}
-
-.banner-title,
-.banner-description {
-    position: relative;
-    z-index: 2;
 }
 
 .banner-description {
@@ -51,7 +50,8 @@
 .find-partner-btn {
     padding-bottom: 135px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
+    display: inline-block;
 }
 
 .find-partner-btn a {
@@ -70,6 +70,7 @@
     color: var( --header-text-color);
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
+    text-decoration: none;
 }
 
 .logo-mobile {

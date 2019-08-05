@@ -51,6 +51,7 @@
     
     .see-other-partner-btn {
         padding-bottom: 40px;
+        display: inline-block;
     }
     
     .partner-photo {
