@@ -1,133 +1,126 @@
-/*MOBILE*/
-
-.header-section {
-    position: absolute;
-    z-index: 2;
-    min-width: 100%;
-}
-
-.banner {
-    background-image: url('../../images/VectorSmart.png');
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    color: var( --header-text-color);
-    font-family: var(--main-font-family);
-    font-weight: var(--main-font-weight);
-    margin-bottom: 70px;
-    background-position: center;
-    position: relative;
-}
-
-.banner::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000003;
-    opacity: 0.4;
-    left: 0;
-    top: 0;
-}
-
-.banner-text {
-    position: relative;
-    z-index: 1;
-}
-
-.banner-title {
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-.banner-description {
-    font-family: var(--secondary-font-family);
-    font-weight: 300;
-    font-size: 18px;
-    margin: 0 35px 40px 35px;
-}
-
-.find-partner-btn {
-    padding-bottom: 135px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-}
-
-.find-partner-btn a {
-    background-color: #ff4e50;
-    padding: 12px 40px;
-    border: 1px solid transparent;
-    color: var( --header-text-color);
-    font-family: var(--main-font-family);
-    font-weight: var(--main-font-weight);
-}
-
-.login button,
-.signup button,
-.logo-mobile a,
-.logo-tablet-desctop a {
-    color: var( --header-text-color);
-    font-family: var(--main-font-family);
-    font-weight: var(--main-font-weight);
-    text-decoration: none;
-}
-
-.logo-mobile {
-    padding-top: 160px;
-    margin-bottom: 40px;
-    position: relative;
-    z-index: 2;
-}
-
-.signup button {
-    border: 3px solid var( --header-text-color);
-    padding: 10px 15px;
-    border-radius: 37px;
-    background-color: transparent;
-}
-
-.login button {
-    border: none;
-    background-color: transparent;
-}
-
-.navigation-menu {
-    padding-top: 30px;
-}
-
-.authorization li {
-    margin-right: 20px;
-}
-
-.authorization li:last-child {
-    margin-right: 0;
-}
-
-@media screen and (min-width: 768px) {
-    .logo-tablet-desctop {
-        font-size: 20px;
+    /*MOBILE*/
+    
+    .header-section {
+        /* position: absolute;*/
+        /*  z-index: 2;*/
+        /*  min-width: 100%;*/
     }
+    
+    .banner {
+        background-image: url('../../images/VectorSmart.png');
+        /* width: 100%;
+        height: auto;*/
+        background-repeat: no-repeat;
+        color: var( --header-text-color);
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+        margin-bottom: 70px;
+        background-position: center;
+        /*  position: relative;*/
+    }
+    
+    .banner-overlay {
+        /*  content: '';*/
+        /* position: absolute;*/
+        /*  width: 100%;
+        height: 100%;*/
+        background-color: #000003;
+        opacity: 0.4;
+        left: 0;
+        top: 0;
+    }
+    
+    .banner-text {
+        /*  position: relative;*/
+        /*  z-index: 1;*/
+    }
+    
     .banner-title {
-        padding-top: 235px;
+        font-size: 30px;
+        margin-bottom: 25px;
     }
-    .navigation-menu {
-        padding: 30px 35px 0 35px;
-    }
-    .banner-title {
-        font-size: 52px;
-        margin-bottom: 40px;
-        line-height: 72px;
-    }
+    
     .banner-description {
-        font-size: 24px;
+        font-family: var(--secondary-font-family);
+        font-weight: 300;
+        font-size: 18px;
         margin: 0 35px 40px 35px;
     }
-}
-
-@media screen and (min-width: 960px) {
-    .navigation-menu {
-        max-width: 940px;
-        margin: 0 auto;
+    
+    .find-partner-btn {
+        padding-bottom: 135px;
+        /*   position: relative;*/
+        /*z-index: 1;*/
+        /*display: inline-block;*/
     }
-}
+    
+    .find-partner-btn a {
+        background-color: #ff4e50;
+        padding: 12px 40px;
+        border: 1px solid transparent;
+        color: var( --header-text-color);
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+    }
+    
+    .login button,
+    .signup button,
+    .logo-mobile a,
+    .logo-tablet-desctop a {
+        color: var( --header-text-color);
+        font-family: var(--main-font-family);
+        font-weight: var(--main-font-weight);
+        /* text-decoration: none;*/
+    }
+    
+    .logo-mobile {
+        padding-top: 160px;
+        margin-bottom: 40px;
+        /* position: relative;*/
+        /*z-index: 2;*/
+    }
+    
+    .signup button {
+        border: 3px solid var( --header-text-color);
+        padding: 10px 15px;
+        border-radius: 37px;
+        background-color: transparent;
+    }
+    
+    .login button {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .navigation-menu {
+        padding-top: 30px;
+    }
+    
+    .authorization li {
+        margin-right: 20px;
+    }
+    
+    .authorization li:last-child {
+        margin-right: 0;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .logo-tablet-desctop {
+            font-size: 20px;
+        }
+        .banner-title {
+            padding-top: 235px;
+        }
+        .navigation-menu {
+            padding: 30px 35px 0 35px;
+        }
+        .banner-title {
+            font-size: 52px;
+            margin-bottom: 40px;
+            line-height: 72px;
+        }
+        .banner-description {
+            font-size: 24px;
+            margin: 0 35px 40px 35px;
+        }
+    }

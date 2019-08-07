@@ -8,9 +8,9 @@
         margin: 0 35px 15px 35px;
     }
     
-    .partner-list li {
-        max-width: 217px;
-        margin: 0 auto 30px auto;
+    .partner-card {
+        width: 217px;
+        margin-bottom: 30px;
     }
     
     .partner-name {
@@ -27,17 +27,13 @@
         line-height: 18px;
     }
     
-    .partner-list li:last-child {
-        margin-bottom: 40px;
-    }
-    
     .partner-photo img {
         margin: 0 auto;
         border: 1px solid transparent;
     }
     
     .see-other-partner-btn {
-        margin-bottom: 40px;
+        margin: 40px auto 40px;
     }
     
     .see-other-partner-btn a {
@@ -55,14 +51,17 @@
     }
     
     .partner-photo {
-        position: relative;
         margin-bottom: 20px;
     }
     
-    .bradley-shape::after,
-    .lucas-shape::after,
-    .heather-shape::after,
-    .hunter-shape::after {
+    .shape {
+        width: 121px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+    .shape::after {
+        display: block;
         content: '';
         width: 34px;
         height: 34px;
@@ -70,7 +69,7 @@
         border-radius: 50%;
         position: absolute;
         bottom: 0;
-        right: 25%;
+        right: 0;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -97,22 +96,11 @@
     }
     
     @media screen and (min-width: 768px) {
-        .wrapper {
-            max-width: 550px;
-            margin: 0 auto;
-        }
         .partner-list li {
             margin: 0 auto 60px auto;
         }
         .meet-a-partner {
             margin-bottom: 40px;
             font-size: 22px;
-        }
-    }
-    
-    @media screen and (min-width: 960px) {
-        .wrapper {
-            max-width: 940px;
-            margin: 0 auto;
         }
     }
